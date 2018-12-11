@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the container-block package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: container-block 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-11 17:01+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/commonJS/cobl_block_container_block_editor.js:26
+msgid "Container Block"
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor.js:32
+msgid "Wrap several blocks in a container."
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor/components/ColorPaletteAlphaControl.jsx:26
+msgid "Custom color picker"
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor/components/ColorPaletteAlphaControl.jsx:39
+#: src/commonJS/cobl_block_container_block_editor/components/ColorPaletteAlphaControl.jsx:50
+#, javascript-format
+msgid "Color code: %s"
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor/components/ColorPaletteAlphaControl.jsx:48
+#, javascript-format
+msgid "Color: %s"
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor/components/ColorPaletteAlphaControl.jsx:91
+msgid "Clear"
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor/components/Inspector.jsx:38
+msgid "Max Width"
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor/components/Inspector.jsx:66
+msgid "Left"
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor/components/Inspector.jsx:80
+msgid "Bottom"
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor/components/Inspector.jsx:91
+msgid "Margin"
+msgstr ""
+
+#: src/commonJS/cobl_block_container_block_editor/components/Inspector.jsx:95
+msgid "Top"
+msgstr ""

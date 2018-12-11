@@ -1,4 +1,19 @@
-<?php
+<?php 
+/*
+Plugin Name: Container Block
+Plugin URI: https://waterproof-webdesign.info/wppr_project/container-block
+Description: A Container Block for the Gutenberg editor
+Version: 0.0.1
+Author: jhotadhari
+Author URI: https://waterproof-webdesign.info
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cobl
+Domain Path: /languages
+Tags: 
+*/
+
+?><?php
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
@@ -8,11 +23,11 @@ if ( ! defined( 'WPINC' ) ) {
 class Cobl_Container_block {
 
 	protected static $instance = null;
-	const VERSION = 'taskRunner_set_version';
+	const VERSION = '0.0.1';
 	const DB_VERSION = 0;			// int	increase the number if the database needs an update
-	const PLUGIN_SLUG = 'taskRunner_set_name';
-	const PLUGIN_NAME = 'taskRunner_set_fullName';
-	const PLUGIN_PREFIX = 'taskRunner_set_funcPrefix';
+	const PLUGIN_SLUG = 'container-block';
+	const PLUGIN_NAME = 'Container Block';
+	const PLUGIN_PREFIX = 'cobl';
 	protected $deactivate_notice = '';
 	protected $deps = array(
 		'plugins' => array(
@@ -27,8 +42,8 @@ class Cobl_Container_block {
 			),
 			*/
 		),
-		'php_version' => 'taskRunner_set_phpRequiresAtLeast',		// required php version
-		'wp_version' => 'taskRunner_set_wpRequiresAtLeast',			// required wp version
+		'php_version' => '7.2',		// required php version
+		'wp_version' => '5.0',			// required wp version
 		'php_ext' => array(
 			/*
 			'xml' => array(
